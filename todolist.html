@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todolist.css">
+</head>
+<body>
+    <div class="all">
+        <div class="sec">
+            <div class="style">
+                <h4 class="font">To Do <span class="count1">1</span></h4>
+            </div>
+            <form class="form" id="search-task">
+                <input type="text" placeholder="Search tasks..." id="searchBar" />
+            </form>
+            <div id="task-list">
+                <ul>
+                </ul>
+            </div>
+            <form id="add-task" >
+                <input type="checkbox" id="hide">
+                <label for="hide">Hide all tasks</label>
+                <input type="text" class="placehold" placeholder="Add something...">
+            </form>
+        </div>
+        <div class="sec">
+            <div class="style2">
+                <h4 class="font">In Progress <span class="count2">1</span></h4>
+            </div>
+            <form class="form" id="task-onproc">
+                <ul>
+                </ul>
+            </form>
+        </div>
+        <div class="sec">
+            <div class="style3">
+                <h4 class="font">Done <span class="count3">1</span></h4>
+            </div>
+            <form class="form" id="done">
+                <ul>
+                </ul>
+            </form>
+        </div>
+    </div>  
+    <script src="./todolist.js"></script>
+</body>
+</html>
