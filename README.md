@@ -1,2 +1,2 @@
 # toDoList
-To do list
+This is a opensource project for everyone.
